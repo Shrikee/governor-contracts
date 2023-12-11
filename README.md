@@ -1,13 +1,16 @@
-# Sample Hardhat Project
+## Governance contracts for creating proposals, voting, execution
+Contracts are forked from @openzeppelin/contracts
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
-
-Try running some of the following tasks:
-
+To run tests:
 ```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat run scripts/deploy.ts
+npm run test
 ```
+To run a local rpc node
+```shell
+npm run local-rpc
+```
+To deploy contracts
+```shell
+npm run deploy-local
+```
+Note that contract addresses are printed in the console.
